@@ -2,10 +2,10 @@ kind: pipeline
 name: default
 
 steps:
-  - name: test
-    image: node
-    commands:
-      - npm install
+- name: test
+  image: node
+  commands:
+  - echo "working"
  settings:
    repo:Bishal-Mukherjee-2/DUMMY_DRONE_IO
    username:
