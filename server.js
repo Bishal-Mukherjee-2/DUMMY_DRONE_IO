@@ -1,0 +1,7 @@
+const express = require("express");
+const app = express();
+
+console.log("I'm in server.js");
+app.listen(8080, () => {
+  console.log("SERVER WORKING");
+});

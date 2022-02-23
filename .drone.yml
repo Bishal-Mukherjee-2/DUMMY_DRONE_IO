@@ -1,0 +1,17 @@
+kind: pipeline
+name: default
+
+steps:
+  - name: test
+    image: node
+    commands:
+      - npm install
+      - npm run server.js
+ settings:
+   repo:Bishal-Mukherjee-2/DUMMY_DRONE_IO
+   username:
+     from_secret: shoshinschool
+   password:
+     from_secret: shoshin123
+   tags:
+     - latest
