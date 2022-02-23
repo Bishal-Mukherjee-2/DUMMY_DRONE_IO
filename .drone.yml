@@ -6,7 +6,6 @@ steps:
     image: node
     commands:
       - npm install
-      - npm run server.js
  settings:
    repo:Bishal-Mukherjee-2/DUMMY_DRONE_IO
    username:
